@@ -1,0 +1,111 @@
+/* Admin Dashboard Styles */
+.admin-container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .admin-sidebar {
+    width: 250px;
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-sidebar h2 {
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .admin-sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .admin-sidebar ul li {
+    margin: 10px 0;
+  }
+  
+  .admin-sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .admin-sidebar ul li a:hover {
+    background: #007bff;
+  }
+  
+  .admin-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .admin-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .admin-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .admin-content table th, .admin-content table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .admin-content table th {
+    background: #f4f4f4;
+  }
+  
+  .admin-content form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-content form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .admin-content form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .admin-content form .form-group input,
+  .admin-content form .form-group textarea,
+  .admin-content form .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .admin-content form .form-group textarea {
+    resize: vertical;
+  }
+  
+  .admin-content form button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .admin-content form button:hover {
+    background: #0056b3;
+  }
+  
